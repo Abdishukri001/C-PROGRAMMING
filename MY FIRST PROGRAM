@@ -1,0 +1,11 @@
+//my first c program
+/* date: 2/10/2024
+   author:abdishukri*/
+
+ #include <stdio.h>
+  int main(){
+      printf("hello world");
+
+
+      return 0;
+  }

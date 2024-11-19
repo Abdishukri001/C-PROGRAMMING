@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include<string.h>
+//prompting the user
+  struct bookx{
+      char title[30];
+      char author[30];
+      int publication_year;
+      char ISBN[13];
+      float price;
+
+  };
+  int main(){
+      struct bookx;
+      printf("enter the title of the book");
+      fgets(bookx.title,sizeof(bokx.title),stdin);
+
+      printf("enter the name of the author");
+      fgets(bookx.author,sizeof(bookx.author),stdin);
+
+      printf("enter the publication_year");
+      scanf("%d\n",bookx.publication_year);
+
+      printf("enter the ISBN");
+      scanf("%s\n",bookx.ISBN);
+
+      printf("enter the price of the book");
+      scanf("%f\n",bookx.price);
+
+      printf("%s\n",bookx.title);
+      printf("%s\n",bookx.author);
+      printf("%d\n",bookx.publication_year);
+      printf("s\n",bookx.ISBN);
+      printf("%f\n",bookx.price);
+
+
+
+
+
+      return 0;
+
+
+
+
+
+
+
+
+
+  }
+
+
